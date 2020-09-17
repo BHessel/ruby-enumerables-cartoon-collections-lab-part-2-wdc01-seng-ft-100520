@@ -17,5 +17,6 @@ end
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   planeteer_calls.find {|i| i valid_calls.include?(planeteer_calls)}
-  # Do ANY valid calls MATCH
+  # Does ANYthing in valid_calls MATCH ANYthing in planeteer_calls?
+  #If so, 
 end
