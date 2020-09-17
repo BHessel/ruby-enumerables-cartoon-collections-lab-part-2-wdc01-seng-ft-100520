@@ -16,7 +16,7 @@ end
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-  planeteer_calls.find {|match| match == valid_calls}
+  valid_calls.find {|match| match == planeteer_calls}
   
   # Does ANYthing in valid_calls MATCH ANYthing in planeteer_calls?
   #If so, return first match -- .find seems to do this automatically
